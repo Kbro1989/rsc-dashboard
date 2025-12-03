@@ -1,38 +1,49 @@
 # RSC Dashboard
 
-Official landing page for RuneScape Classic
+Official landing page for RuneScape Classic - Authentic 2001-2003 Experience
 
-## Features
+## 🎮 About
 
-- 🎮 Professional game portal
-- 📊 Live player statistics
-- ⚔️ Direct play link to game server
-- ✨ Authentic RSC feature showcase
+This project recreates RuneScape Classic with 100% authentic game mechanics:
+- ✅ All combat formulas (melee, ranged, magic)
+- ✅ All 18 skills with verified success rates  
+- ✅ 1,313 items (100% match with RSC Wiki)
+- ✅ God Spells, Prayer, and all original features
+- ✅ OpenRSC architecture for multiplayer
 
-## Deployment
+## 💖 Support the Project
 
-This repository is automatically deployed to Cloudflare Pages.
+Help keep this free server running!
 
-**Live URL:** https://rsc-dashboard.pages.dev
+- **GitHub Sponsors:** https://github.com/sponsors/Kbro1989
+- **Ko-fi:** https://ko-fi.com/pickofgods
 
-**Game Server:** https://rscaievolution-png.pages.dev/
+Every dollar helps:
+- **$5/month** = 24/7 server hosting on Cloudflare Workers
+- **$10/month** = Server + development time
+- **$25/month** = Server + new features + bug fixes
 
-## Local Development
+## 🚀 Tech Stack
 
-Simply open `index.html` in a browser or serve with:
+- **Frontend:** Pure HTML/CSS/JavaScript (Cloudflare Pages)
+- **Game Server:** Node.js with OpenRSC logic
+- **Multiplayer:** Regional partitioning + delta synchronization
+- **Hosting:** Cloudflare (Pages + Workers + KV)
 
-```bash
-python -m http.server 8000
-```
+## 📜 License
 
-Then visit: http://localhost:8000
+RuneScape is a trademark of Jagex Ltd. This is a fan project created to preserve classic RSC gameplay.
 
-## Stack
+## 🤝 Contributing
 
-- Pure HTML/CSS/JavaScript
-- No build process required
-- Auto-deployed via GitHub → Cloudflare Pages
+Want to help? We accept:
+- Bug reports
+- Feature suggestions
+- Code contributions
+- Donations to keep the server online
 
-## License
+---
 
-RuneScape is a trademark of Jagex Ltd. This is a fan project.
+**Live:** https://rsc-dashboard.pages.dev  
+**Game:** https://rscaievolution-png.pages.dev  
+**Source:** https://github.com/Kbro1989/rscaievolution-png

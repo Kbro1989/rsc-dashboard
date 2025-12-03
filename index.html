@@ -186,35 +186,17 @@
             <ul class="features-list">
                 <li><strong>Combat:</strong> Authentic melee, ranged & magic formulas</li>
                 <li><strong>Skills:</strong> All 18 skills with verified success rates</li>
-                <li><strong>Items:</strong> 1,313 items (100% RSC match)</li>
-                <li><strong>Magic:</strong> God spells (Claws, Strike, Flames) + Charge</li>
-                <li><strong>Prayer:</strong> Accurate combat bonuses & drain rates</li>
-                <li><strong>Multiplayer:</strong> Regional partitioning & delta sync</li>
-                <li><strong>Performance:</strong> 2000+ players on Cloudflare edge</li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="footer">
-        <p>RuneScape Classic • Powered by OpenRSC Game Logic</p>
-        <p style="margin-top: 0.5rem; font-size: 0.9rem;">Deployed on Cloudflare • All mechanics verified authentic</p>
-    </div>
-
-    <script>
-        async function updateStatus() {
-            try {
-                const response = await fetch('https://rscaievolution-png.pages.dev/api/status');
                 const data = await response.json();
                 document.getElementById('players-online').textContent = data.players || '0';
                 document.getElementById('server-status').textContent = '🟢 ONLINE';
-            } catch (err) {
+                } catch (err) {
                 document.getElementById('players-online').textContent = '0';
                 document.getElementById('server-status').textContent = '🟢 ONLINE';
-            }
-        }
-        updateStatus();
-        setInterval(updateStatus, 10000);
-    </script>
+                }
+                }
+                updateStatus();
+                setInterval(updateStatus, 10000);
+                </script>
 </body>
 
 </html>
