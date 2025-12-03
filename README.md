@@ -16,6 +16,7 @@ This project recreates RuneScape Classic with 100% authentic game mechanics:
 Help keep this free server running!
 
 - **GitHub Sponsors:** https://github.com/sponsors/Kbro1989
+- **Patreon:** https://www.patreon.com/posts/rsc-is-coming-144951511
 - **Ko-fi:** https://ko-fi.com/pickofgods
 
 Every dollar helps:
